@@ -1,0 +1,65 @@
+{
+    "meta": {
+        "label": "AdaBoostRegressor",
+        "description": "An AdaBoost regressor.",
+        "icon": "icon-puzzle-piece"
+    },
+    "predictionTypes": [
+        "REGRESSION"
+    ],
+    "gridSearchMode": "MANAGED",
+    "supportsSampleWeights": true,
+    "acceptsSparseMatrix": false,
+    "params": [
+        {
+            "name": "n_estimators",
+            "label": "N Estimators",
+            "description": "The maximum number of estimators at which boosting is terminated. In case of perfect fit, the learning procedure is stopped early.",
+            "defaultValue": [
+                50
+            ],
+            "type": "DOUBLES",
+            "gridParam": true
+        },
+        {
+            "name": "learning_rate",
+            "label": "Learning Rate",
+            "description": "Weight applied to each classifier at each boosting iteration. A higher learning rate increases the contribution of each classifier. There is a trade-off between the `learning_rate` and `n_estimators` parameters.",
+            "defaultValue": [
+                1.0
+            ],
+            "type": "DOUBLES",
+            "gridParam": true
+        },
+        {
+            "name": "loss",
+            "label": "Loss",
+            "description": "The loss function to use when updating the weights after each boosting iteration.",
+            "defaultValue": [
+                "linear"
+            ],
+            "type": "MULTISELECT",
+            "gridParam": true,
+            "selectChoices": [
+                {
+                    "value": "exponential",
+                    "label": "exponential"
+                },
+                {
+                    "value": "linear",
+                    "label": "linear"
+                },
+                {
+                    "value": "square",
+                    "label": "square"
+                }
+            ]
+        },
+        {
+            "name": "random_state",
+            "label": "Random State",
+            "description": "Controls the random seed given at each `base_estimator` at each boosting iteration. Thus, it is only used when `base_estimator` exposes a `random_state`. In addition, it controls the bootstrap of the weights used to train the `base_estimator` at each boosting iteration. Pass an int for reproducible output across multiple function calls. See :term:`Glossary <random_state>`.",
+            "type": "INT"
+        }
+    ]
+}
