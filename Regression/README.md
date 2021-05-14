@@ -4,6 +4,6 @@
 | -----:|:----- |
 | RandomForest | 0.787 |
 | [MondrianForestRegressor](scikit-garden-MondrianTreeRegressor/) | 0.736 |
-| [GradientBoostingRegressor](https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_quantile.html) |0.847 |
-| [AdaboostRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html) |0.661 |
+| [GradientBoostingRegressor](GradientBoostingRegressor/) |0.847 |
+| [AdaboostRegressor](AdaboostRegressor/) |0.661 |
 | [RandomForestQuantileRegressor](scikit-garden-RandomForestQuantileRegressor/) | 0.794 |
