@@ -8,3 +8,4 @@
 | [AdaboostRegressor](AdaboostRegressor/) |0.661 |
 | [RandomForestQuantileRegressor](scikit-garden-RandomForestQuantileRegressor/) | 0.794 |
 | [ExtraTreesQuantileRegressor](scikit-garden-ExtraTreesQuantileRegressor/) | 0.769 |
+| [NodeRegressor](NodeRegressor/) | 0.570 |
