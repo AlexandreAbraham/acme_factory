@@ -9,3 +9,13 @@
 | [RandomForestQuantileRegressor](scikit-garden-RandomForestQuantileRegressor/) | 0.794 |
 | [ExtraTreesQuantileRegressor](scikit-garden-ExtraTreesQuantileRegressor/) | 0.769 |
 | [NodeRegressor](NodeRegressor/) | 0.570 |
+| [SGDRegressor](scikit-contrib-lightning/) | -9.36e+191 |
+| [CDRegressor](scikit-contrib-lightning/) | -2.616 |
+| [SAGRegressor](scikit-contrib-lightning/) | -3.136 |
+| [SAGARegressor](scikit-contrib-lightning/) | -3.131 |
+| [LinearSVR](scikit-contrib-lightning/) | 0.193 |
+| [SVRGRegressor](scikit-contrib-lightning/) | - |
+| [FistaRegressor](scikit-contrib-lightning/) | -2.616 |
+| [SDCARegressor](scikit-contrib-lightning/) | -2.821 |
+| [AdaGradRegressor](scikit-contrib-lightning/) | -2.822 |
+
