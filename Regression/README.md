@@ -13,9 +13,11 @@
 | [CDRegressor](scikit-contrib-lightning/) | -2.616 |
 | [SAGRegressor](scikit-contrib-lightning/) | -3.136 |
 | [SAGARegressor](scikit-contrib-lightning/) | -3.131 |
-| [LinearSVR](scikit-contrib-lightning/) | 0.193 |
+| [LinearSVR](scikit-contrib-lightning/) | 0.555 |
 | [SVRGRegressor](scikit-contrib-lightning/) | - |
 | [FistaRegressor](scikit-contrib-lightning/) | -2.616 |
 | [SDCARegressor](scikit-contrib-lightning/) | -2.821 |
 | [AdaGradRegressor](scikit-contrib-lightning/) | -2.822 |
+| [RGFRegressor](rgf/) | - |
+| [FastRGFRegressor](rgf/) | - |
 

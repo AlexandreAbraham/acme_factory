@@ -16,3 +16,5 @@
 | [SAGClassifier](scikit-contrib-lightning/) | - | 0.664 |
 | [AdaGradClassifier](scikit-contrib-lightning/) | - | 0.614 |
 | [SGDClassifier](scikit-contrib-lightning/) | - | 0.745 |
+| [FastRGFClassifier](rgf/) | 0.931 | 0.688 |
+| [RGFClassifier](rgf/) | - | - |
