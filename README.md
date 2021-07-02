@@ -1,6 +1,6 @@
 # ACME Factory
 
-Repositiory of custom model packages for DSS generated using [ACME](https://github.com/AlexandreAbraham/acme) (Automated Conversion of Modules to extensions).
+Repository of custom model packages for DSS generated using [ACME](https://github.com/AlexandreAbraham/acme) (Automated Conversion of Modules to extensions).
 
 We split the custom models into two categories : 
 - [Classification](https://github.com/AlexandreAbraham/acme_factory/tree/main/Classification)
