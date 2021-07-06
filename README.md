@@ -15,4 +15,5 @@ Please submit your models accordingly.
 4. Create a new branch with the following name acme/[PLEASE FILL WITH YOUR PLUGIN ID] 
 5. Create a folder named after the id of your plugin
 6. Add the zip of the plugin in the folder that you just created
-7. Open a PR and assign @AlexandreAbraham and @Marsobad as reviewers
+7. Create a Dataiku project to show how to use the custom model. You may duplicate this [classification project](https://github.com/AlexandreAbraham/acme_factory/blob/main/Classification/AdaboostClassifier/AdaboostClassifier.zip) or this [regression project](https://github.com/AlexandreAbraham/acme_factory/blob/main/Regression/AdaboostRegressor/ADABOOSTREGRESSOR.zip) from the repo and replace Adaboost with your custom model. 
+8. Open a PR and assign @AlexandreAbraham and @Marsobad as reviewers
